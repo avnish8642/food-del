@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [food_list, setFoodList] = useState([]);
   const [token, setToken] = useState("");
-  const url = "https://food-del-uocs.onrender.com";
+  const url = "https://food-del-backend-1j6z.onrender.com";
   const [cartItem, setCartItem] = useState({});
   // const addToCart = async (itemId) => {
   //   if (!cartItem[itemId]) {
